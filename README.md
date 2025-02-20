@@ -103,4 +103,4 @@ CloudFront의 캐시 무효화(Cache Invalidation)는 엣지 로케이션에 저
 
 ## 심화 과제: CDN 최적화 보고서 작성
 
-- [CDN 최적화 보고서]()
+- [CDN 최적화 보고서](https://github.com/CodyMan0/front_4th_chapter4-1/blob/main/report.md)
