@@ -1,9 +1,46 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.15">
   <diagram name="페이지-1" id="5Ah_SHZNYRgDtHm7RcbI">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="1211" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-4" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lXJuaoEQf6Bt5DzBgJqH-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="114" y="57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.git_repository;" vertex="1" parent="1">
+          <mxGeometry x="2" y="32" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-3" value="local Repo" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-19.5" y="91.5" width="94" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-7" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lXJuaoEQf6Bt5DzBgJqH-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="57" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.github_code;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="117" y="32" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-6" value="github Actions" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="83" y="90" width="118" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-8" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="-15" width="295" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lXJuaoEQf6Bt5DzBgJqH-10" target="lXJuaoEQf6Bt5DzBgJqH-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-10" value="AWS S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="314" y="13" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-12" value="AWS cloudFront" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudfront;fillColor=#F58536;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="444" y="13" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="lXJuaoEQf6Bt5DzBgJqH-14" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="lXJuaoEQf6Bt5DzBgJqH-12" target="lXJuaoEQf6Bt5DzBgJqH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
