@@ -40,10 +40,43 @@ GitHub Actions에 워크플로우를 작성해 다음과 같이 배포가 진행
 
 ## 주요 개념
 
-- GitHub Actions과 CI/CD 도구: \***\*\_\*\***
-- S3와 스토리지: \***\*\_\*\***g
-- CloudFront와 CDN: \***\*\_\*\***
-- 캐시 무효화(Cache Invalidation): \***\*\_\*\***
-- Repository secret과 환경변수: \***\*\_\*\***
+### GitHub Actions과 CI/CD 도구
+
+#### GitHub Actions
+
+"GitHub Actions는 개발의 효율성을 높이는데 사용합니다."
+
+- 용도 및 정의
+  GitHub Actions는 GitHub의 자동화 도구입니다. 단순한 것에서 복잡한 워크 플로우를 구축하여 소프트웨어 개발을 자동화하는데 사용됩니다.
+
+- 특징
+
+1. 개발, 테스트, 배포 등의 워크플로우를 깃헙 저장소 내에서 직접 관리할 수 있다.
+2. yaml 파일을 활용하여 워크플로우를 쉽게 설정할 수 있다.
+3. 외부 도구를 관리하거나 추가적인 인프라 설정이 필요 없다.
+4. 다양한 플랫폼 지원 (Linux, Windows, macOS).
+5. Github Free는 한달에 2000분 사용 가능하다.
+6. 다양한 이벤트에 따라 실행하는 워크 플로우가 특징
+
+#### CI/CD란?
+
+- 정의
+  CI(Continuous Integration) & CD(Continuose Delivery or Deployment)의 준말
+
+- 용도
+  CI : 레포지토리 내의 코드 변경 사항에 대해 자동으로 테스트 실행 하는데 사용, 즉 문제를 빠르게 발견해서 더 안정적으로 개발할 수 있게 도와준다.
+  CD : 코드 변경 사항이 실제 배포 환경에 자동으로 배포
+
+- 구성
+  CI : 주로 PR이 Open 상태이거나 Synchronize될 경우 트리거
+  CD : PR이 merge될 경우 트리거
+
+### S3와 스토리지
+
+### CloudFront와 CDN
+
+### 캐시 무효화(Cache Invalidation)
+
+### Repository secret과 환경변수
 
 ## 심화 과제: CDN 최적화 보고서 작성
